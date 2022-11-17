@@ -16,12 +16,6 @@ function transformarJSON(response){
 }
 
 function construirCards(cards){
-  const card_img = document.querySelector('.card-img')
-  const card_title = document.querySelector('.card-title')
-  const card_description = document.querySelector('.card-description')
-  const price_total = document.querySelector('.price_total')
-  const price_off = document.querySelector('.price_off')
-  const price_installments = document.querySelector('.price-installments')
   
   cards.products.forEach(element => {
     console.log(element.name)
