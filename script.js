@@ -18,12 +18,6 @@ function transformarJSON(response){
 function construirCards(cards){
   
   cards.products.forEach(element => {
-    console.log(element.name)
-    console.log(element.description)
-    console.log(element.oldPrice)
-    console.log(element.price)
-    console.log(element.installments.count + ' ' + element.installments.value)
-
     document.querySelector('.card').innerHTML += `<div class="card-item">
     <img src="${element.image}" alt="" class="card-img">
     <h3 class="card-title">${element.name}</h3>
