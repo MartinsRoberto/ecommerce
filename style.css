@@ -11,32 +11,44 @@
 a{
   text-decoration: none;
 }
+ 
+
 body{
   font-family: sans-serif;
 }
 section{
   padding: 80px 0px;
 }
-input[type="submit"],
-button{
-  cursor: pointer;
-}
-input[type="submit"]:hover,
-button:hover{
-  background-color: var(--color-gray-2);
-  color: var(--color-white-1);
-}
 
-
-input[type="submit"]:hover{
-  background-color: var(--color-gray-1);
-  color: var(--color-white-1);
-}
 .container{
   width: 90%;
   margin: auto;
 }
 
+input[type="text"],
+input[type="email"]{
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--color-gray-2);
+  color: var(--color-gray-2);
+  font-size: 16px;
+  background-color: transparent;
+  padding: 6px 0px 6px 6px
+}
+.btn-primary{
+  font-size: 15px;border-radius: 5px;
+  background-color: var(--color-white-1);
+  border: 1px solid var(--color-gray-2);
+  color: var(--color-gray-2);
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: .4s;
+} 
+
+.btn-primary:hover{
+  background-color: var(--color-gray-2);
+  color: var(--color-white-1);
+} 
 .home{
   background-color: var(--color-gray-1);
   color: var(--color-white-1);
@@ -61,14 +73,9 @@ input[type="submit"]:hover{
   gap: 30px;
   flex-wrap: wrap;
 }
-.home a{
-  display: inline-block;
-  font-size: 14px;
-  padding: 10px 25px;
-  border-radius: 5px;
+.home .nav a{
   min-width: 120px;
-  background-color: var(--color-white-1);
-  color: var(--color-gray-2);
+  border: 2px solid var(--color-gray-1);
 }
 
 .help-algorithm{
@@ -98,17 +105,8 @@ input[type="submit"]:hover{
 .help-algorithm input{
   margin-bottom: 18px;
 }
-.help-algorithm input[type="text"],
-.help-algorithm input[type="email"],
-.help-algorithm input[type="submit"]{
-  width: 100%;
-  border-radius: 5px;
-  border: 1px solid var(--color-gray-2);
-  color: var(--color-gray-2);
-  font-size: 16px;
-  background-color: transparent;
-  padding: 5px 0px;
-}
+
+
 .help-algorithm .row:nth-child(4) label{
   display: inline;
   margin-right: 10px;
@@ -172,32 +170,14 @@ input[type="submit"]:hover{
 }
 .products .btn-buy{
   width: 100%;
-  border-radius: 5px;
-  border: 1px solid var(--color-gray-2);
-  color: var(--color-gray-2);
-  font-size: 16px;
-  background-color: transparent;
-  padding: 5px 0px;
-  transition: .4s;
 }
 .products .btn-more{
   display: block;
   margin: auto;
-  margin-top: 40px;
-  border-radius: 5px;
-  border: 1px solid var(--color-gray-2);
-  color: var(--color-gray-2);
-  background-color: var(--color-white-1);
-  font-size: 16px;
-  padding: 10px 20px;
-  transition: .4s;
-}
-.products .btn-buy:hover,
-.products .btn-more:hover{
-  background-color: var(--color-gray-2);
-  color: var(--color-white-1);
+  margin-top: 50px;
 }
 .share{
+  padding: 40px 0px;
   text-align: center;
   color: var(--color-gray-1);
 }
@@ -239,17 +219,8 @@ input[type="submit"]:hover{
   display: block;
   margin-bottom: 8px;
 }
-.share input[type="text"],
-.share input[type="email"],
 .share input[type="submit"]{
   width: 100%;
-  border-radius: 5px;
-  border: 1px solid var(--color-gray-2);
-  color: var(--color-gray-2);
-  font-size: 16px;
-  background-color: transparent;
-  padding: 5px 0px;
-  margin-bottom: 25px;
 }
 
 .footer{

@@ -25,7 +25,7 @@ function construirCards(cards){
     <span class="price-total">De: R$${element.oldPrice},00</span>
     <span class="price-off">Por: R$${element.price},00</span>
     <span class="price-installments">ou ${element.installments.count}x de R$${element.installments.value}</span>
-    <button class="btn-buy">Comprar</button>
+    <button class="btn-buy btn-primary">Comprar</button>
   </div>`
 
   });
