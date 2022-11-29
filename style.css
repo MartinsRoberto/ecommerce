@@ -78,7 +78,22 @@ input[type="email"]{
   min-width: 120px;
   border: 2px solid var(--color-gray-1);
 }
-
+.home h4,
+.home p,
+.home .nav{
+  animation: opacity 1s 1;
+}
+@keyframes opacity {
+  from{
+    opacity: 0;
+    transform: scale(0);
+  }
+  to{
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+}
 .help-algorithm{
   color: var(--color-gray-2);
   padding: 30px;
@@ -107,10 +122,25 @@ input[type="email"]{
   margin-bottom: 18px;
 }
 
-
 .help-algorithm .row:nth-child(4) label{
   display: inline;
   margin-right: 10px;
+}
+
+.help-algorithm{
+  animation: opacity 1s 1;
+}
+
+@keyframes opacity {
+  from{
+    opacity: 0;
+    transform: scale(0);
+  }
+  to{
+    opacity: 1;
+    transform: scale(1);
+  }
+  
 }
 .products{
   color: var(--color-gray-1);
