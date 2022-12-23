@@ -4,13 +4,13 @@ O projeto de ecommerce consiste em numa plataforma online para a venda de produt
 cadastrar. O objetivo do site é treinar o HTML, CSS, Javacript e principalmente a responsividade ( capacidade do site se adaptar a diferentes tamanhos de tela e 
 dispositivos ).
 
-# Interface
-
-![martinsroberto github io_ecommerce_](https://user-images.githubusercontent.com/104272370/208793522-81f51655-9cf4-4b26-91d0-d2ecb4feac7e.png)
-
 # Descrição do projeto
 
 O projeto possui apenas uma página onde são listados todos os pokemons, sendo possível filtrar os pokemons pelo seu tipo no menu na parte superior do site
+
+# Interface
+
+![martinsroberto github io_ecommerce_](https://user-images.githubusercontent.com/104272370/208793522-81f51655-9cf4-4b26-91d0-d2ecb4feac7e.png)
 
 # Tecnologias usadas
 
